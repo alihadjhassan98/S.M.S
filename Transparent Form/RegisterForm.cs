@@ -117,5 +117,10 @@ namespace Transparent_Form
             dateTimePicker1.Value = DateTime.Now;
             pictureBox_student.Image = null;
         }
+
+        private void DataGridView_student_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -110,7 +110,7 @@ namespace Transparent_Form
             // 
             // button_login
             // 
-            this.button_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(208)))), ((int)(((byte)(224)))));
+            this.button_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_login.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_login.ForeColor = System.Drawing.Color.White;
@@ -135,13 +135,13 @@ namespace Transparent_Form
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(41, 35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(869, 577);
+            this.panel1.Size = new System.Drawing.Size(869, 584);
             this.panel1.TabIndex = 4;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(46, 90);
+            this.pictureBox1.Location = new System.Drawing.Point(88, 55);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(352, 436);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -152,7 +152,7 @@ namespace Transparent_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(208)))), ((int)(((byte)(224)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.ClientSize = new System.Drawing.Size(950, 650);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
