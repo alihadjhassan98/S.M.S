@@ -29,6 +29,7 @@ namespace Transparent_Form
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel_slide = new System.Windows.Forms.Panel();
             this.button_exit = new System.Windows.Forms.Button();
             this.button_dashboard = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@ namespace Transparent_Form
             this.panel_logo = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel_main = new System.Windows.Forms.Panel();
             this.panel_cover = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -70,6 +70,7 @@ namespace Transparent_Form
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel_slide.SuspendLayout();
             this.panel_scoreSubmenu.SuspendLayout();
             this.panel_courseSubmenu.SuspendLayout();
@@ -82,6 +83,7 @@ namespace Transparent_Form
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_slide
@@ -106,6 +108,7 @@ namespace Transparent_Form
             // 
             // button_exit
             // 
+            this.button_exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.button_exit.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_exit.FlatAppearance.BorderSize = 0;
             this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -118,11 +121,12 @@ namespace Transparent_Form
             this.button_exit.TabIndex = 8;
             this.button_exit.Text = "Exit";
             this.button_exit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_exit.UseVisualStyleBackColor = true;
+            this.button_exit.UseVisualStyleBackColor = false;
             this.button_exit.Click += new System.EventHandler(this.button_exit_Click_1);
             // 
             // button_dashboard
             // 
+            this.button_dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.button_dashboard.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_dashboard.FlatAppearance.BorderSize = 0;
             this.button_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -135,7 +139,7 @@ namespace Transparent_Form
             this.button_dashboard.TabIndex = 7;
             this.button_dashboard.Text = "Dashboard";
             this.button_dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_dashboard.UseVisualStyleBackColor = true;
+            this.button_dashboard.UseVisualStyleBackColor = false;
             this.button_dashboard.Click += new System.EventHandler(this.button_exit_Click);
             // 
             // panel_scoreSubmenu
@@ -152,6 +156,7 @@ namespace Transparent_Form
             // 
             // button_scorePrint
             // 
+            this.button_scorePrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_scorePrint.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_scorePrint.FlatAppearance.BorderSize = 0;
             this.button_scorePrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -163,11 +168,12 @@ namespace Transparent_Form
             this.button_scorePrint.TabIndex = 3;
             this.button_scorePrint.Text = "Print";
             this.button_scorePrint.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_scorePrint.UseVisualStyleBackColor = true;
+            this.button_scorePrint.UseVisualStyleBackColor = false;
             this.button_scorePrint.Click += new System.EventHandler(this.button_scorePrint_Click);
             // 
             // button_manageScore
             // 
+            this.button_manageScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_manageScore.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_manageScore.FlatAppearance.BorderSize = 0;
             this.button_manageScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -179,11 +185,12 @@ namespace Transparent_Form
             this.button_manageScore.TabIndex = 1;
             this.button_manageScore.Text = "Manage Score";
             this.button_manageScore.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_manageScore.UseVisualStyleBackColor = true;
+            this.button_manageScore.UseVisualStyleBackColor = false;
             this.button_manageScore.Click += new System.EventHandler(this.button_manageScore_Click);
             // 
             // button_newScore
             // 
+            this.button_newScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_newScore.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_newScore.FlatAppearance.BorderSize = 0;
             this.button_newScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -195,11 +202,12 @@ namespace Transparent_Form
             this.button_newScore.TabIndex = 0;
             this.button_newScore.Text = "New Score";
             this.button_newScore.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_newScore.UseVisualStyleBackColor = true;
+            this.button_newScore.UseVisualStyleBackColor = false;
             this.button_newScore.Click += new System.EventHandler(this.button_newScore_Click);
             // 
             // button_score
             // 
+            this.button_score.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.button_score.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_score.FlatAppearance.BorderSize = 0;
             this.button_score.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -212,7 +220,7 @@ namespace Transparent_Form
             this.button_score.TabIndex = 5;
             this.button_score.Text = "Score";
             this.button_score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_score.UseVisualStyleBackColor = true;
+            this.button_score.UseVisualStyleBackColor = false;
             this.button_score.Click += new System.EventHandler(this.button_score_Click);
             // 
             // panel_courseSubmenu
@@ -229,6 +237,7 @@ namespace Transparent_Form
             // 
             // button_coursePrint
             // 
+            this.button_coursePrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_coursePrint.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_coursePrint.FlatAppearance.BorderSize = 0;
             this.button_coursePrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -240,11 +249,12 @@ namespace Transparent_Form
             this.button_coursePrint.TabIndex = 3;
             this.button_coursePrint.Text = "Print";
             this.button_coursePrint.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_coursePrint.UseVisualStyleBackColor = true;
+            this.button_coursePrint.UseVisualStyleBackColor = false;
             this.button_coursePrint.Click += new System.EventHandler(this.button_coursePrint_Click);
             // 
             // button_manageCourse
             // 
+            this.button_manageCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_manageCourse.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_manageCourse.FlatAppearance.BorderSize = 0;
             this.button_manageCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -256,11 +266,12 @@ namespace Transparent_Form
             this.button_manageCourse.TabIndex = 1;
             this.button_manageCourse.Text = "Manage Course";
             this.button_manageCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_manageCourse.UseVisualStyleBackColor = true;
+            this.button_manageCourse.UseVisualStyleBackColor = false;
             this.button_manageCourse.Click += new System.EventHandler(this.button_manageCourse_Click);
             // 
             // button_newCourse
             // 
+            this.button_newCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_newCourse.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_newCourse.FlatAppearance.BorderSize = 0;
             this.button_newCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -272,11 +283,12 @@ namespace Transparent_Form
             this.button_newCourse.TabIndex = 0;
             this.button_newCourse.Text = "New Course";
             this.button_newCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_newCourse.UseVisualStyleBackColor = true;
+            this.button_newCourse.UseVisualStyleBackColor = false;
             this.button_newCourse.Click += new System.EventHandler(this.button_newCourse_Click);
             // 
             // button_course
             // 
+            this.button_course.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.button_course.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_course.FlatAppearance.BorderSize = 0;
             this.button_course.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -289,7 +301,7 @@ namespace Transparent_Form
             this.button_course.TabIndex = 3;
             this.button_course.Text = "Course";
             this.button_course.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_course.UseVisualStyleBackColor = true;
+            this.button_course.UseVisualStyleBackColor = false;
             this.button_course.Click += new System.EventHandler(this.button_course_Click);
             // 
             // panel_stdsubmenu
@@ -306,6 +318,7 @@ namespace Transparent_Form
             // 
             // button_stdPrint
             // 
+            this.button_stdPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_stdPrint.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_stdPrint.FlatAppearance.BorderSize = 0;
             this.button_stdPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -317,11 +330,12 @@ namespace Transparent_Form
             this.button_stdPrint.TabIndex = 3;
             this.button_stdPrint.Text = "Print";
             this.button_stdPrint.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_stdPrint.UseVisualStyleBackColor = true;
+            this.button_stdPrint.UseVisualStyleBackColor = false;
             this.button_stdPrint.Click += new System.EventHandler(this.button_stdPrint_Click);
             // 
             // button_manageStd
             // 
+            this.button_manageStd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_manageStd.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_manageStd.FlatAppearance.BorderSize = 0;
             this.button_manageStd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -333,11 +347,12 @@ namespace Transparent_Form
             this.button_manageStd.TabIndex = 1;
             this.button_manageStd.Text = "Manage Student";
             this.button_manageStd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_manageStd.UseVisualStyleBackColor = true;
+            this.button_manageStd.UseVisualStyleBackColor = false;
             this.button_manageStd.Click += new System.EventHandler(this.button_manageStd_Click);
             // 
             // button_registration
             // 
+            this.button_registration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(188)))), ((int)(((byte)(195)))));
             this.button_registration.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_registration.FlatAppearance.BorderSize = 0;
             this.button_registration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -349,11 +364,12 @@ namespace Transparent_Form
             this.button_registration.TabIndex = 0;
             this.button_registration.Text = "Registration";
             this.button_registration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_registration.UseVisualStyleBackColor = true;
+            this.button_registration.UseVisualStyleBackColor = false;
             this.button_registration.Click += new System.EventHandler(this.button_registration_Click);
             // 
             // button_std
             // 
+            this.button_std.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.button_std.Dock = System.Windows.Forms.DockStyle.Top;
             this.button_std.FlatAppearance.BorderSize = 0;
             this.button_std.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -366,14 +382,15 @@ namespace Transparent_Form
             this.button_std.TabIndex = 1;
             this.button_std.Text = "Student";
             this.button_std.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_std.UseVisualStyleBackColor = true;
+            this.button_std.UseVisualStyleBackColor = false;
             this.button_std.Click += new System.EventHandler(this.button_std_Click);
             // 
             // panel_logo
             // 
+            this.panel_logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
+            this.panel_logo.Controls.Add(this.pictureBox3);
             this.panel_logo.Controls.Add(this.label4);
             this.panel_logo.Controls.Add(this.label3);
-            this.panel_logo.Controls.Add(this.label2);
             this.panel_logo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_logo.Location = new System.Drawing.Point(0, 0);
             this.panel_logo.Margin = new System.Windows.Forms.Padding(5);
@@ -403,17 +420,6 @@ namespace Transparent_Form
             this.label3.TabIndex = 0;
             this.label3.Text = "Welcome From ";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Broadway", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(55, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 55);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "M";
-            // 
             // panel_main
             // 
             this.panel_main.Controls.Add(this.panel_cover);
@@ -438,7 +444,7 @@ namespace Transparent_Form
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = global::Transparent_Form.Properties.Resources.cover31;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(0, 144);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(934, 372);
@@ -448,7 +454,7 @@ namespace Transparent_Form
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label_cfemale);
             this.panel3.Controls.Add(this.label_cmale);
@@ -540,7 +546,7 @@ namespace Transparent_Form
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(69)))), ((int)(((byte)(139)))));
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label_role);
             this.panel2.Controls.Add(this.label_user);
@@ -619,9 +625,20 @@ namespace Transparent_Form
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(200)))));
             this.label12.Location = new System.Drawing.Point(8, 24);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(310, 19);
+            this.label12.Size = new System.Drawing.Size(145, 19);
             this.label12.TabIndex = 0;
-            this.label12.Text = "Mdemy International School, Myanmar";
+            this.label12.Text = "Sesame University";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(7, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(168, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
             // 
             // MainForm
             // 
@@ -653,6 +670,7 @@ namespace Transparent_Form
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -678,7 +696,6 @@ namespace Transparent_Form
         private System.Windows.Forms.Button button_std;
         private System.Windows.Forms.Panel panel_logo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel_main;
         private System.Windows.Forms.Panel panel_cover;
@@ -700,5 +717,6 @@ namespace Transparent_Form
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button_exit;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
