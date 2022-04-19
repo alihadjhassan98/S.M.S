@@ -14,7 +14,9 @@ namespace Transparent_Form
     {
         public SplashForm()
         {
-            InitializeComponent();
+            InitializeComponent();7
+
+                String chaimawahere;
         }
 
         private void SplashForm_Load(object sender, EventArgs e)
